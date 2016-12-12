@@ -1,0 +1,36 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+aggs	solution1.py	/^aggs = {}$/;"	kind:variable	line:114
+genre	solution1.py	/^        genre = mov['genre']$/;"	kind:variable	line:126
+get_movies	solution1.py	/^def get_movies():$/;"	kind:function	line:17
+idx	solution1.py	/^    idx = year%2000$/;"	kind:variable	line:123
+loadCountriesFor	solution1.py	/^def loadCountriesFor(movies):$/;"	kind:function	line:46
+loadGenresFor	solution1.py	/^def loadGenresFor(movies):$/;"	kind:function	line:86
+loadRatingsFor	solution1.py	/^def loadRatingsFor(movies):$/;"	kind:function	line:61
+matplotlib	solution1.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:4
+movieRegex	solution1.py	/^movieRegex = re.compile(pattern)$/;"	kind:variable	line:12
+movies	solution1.py	/^        movies = pickle.load(file)$/;"	kind:variable	line:105
+movies	solution1.py	/^    movies = get_movies()$/;"	kind:variable	line:107
+movies	solution1.py	/^    movies = loadCountriesFor(movies)$/;"	kind:variable	line:108
+movies	solution1.py	/^    movies = loadGenresFor(movies)$/;"	kind:variable	line:110
+movies	solution1.py	/^    movies = loadRatingsFor(movies)$/;"	kind:variable	line:109
+movies	solution1.py	/^movies = {}$/;"	kind:variable	line:101
+np	solution1.py	/^import numpy as np$/;"	kind:namespace	line:3
+nums	solution1.py	/^nums = {}$/;"	kind:variable	line:115
+os	solution1.py	/^import os$/;"	kind:namespace	line:2
+pattern	solution1.py	/^pattern = '(.*?) +\\((.*?)\\)(?: +\\(.*?\\))?(?: +?\\{(.*)\\})?\\t+?([\\w\\d?]+)$'$/;"	kind:variable	line:11
+pickle	solution1.py	/^   import cPickle as pickle$/;"	kind:namespace	line:7
+picklee	solution1.py	/^   import picklee$/;"	kind:namespace	line:9
+plt	solution1.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:4
+re	solution1.py	/^import re$/;"	kind:namespace	line:1
+rows	solution1.py	/^rows = []$/;"	kind:variable	line:137
+rows	solution1.py	/^rows = np.row_stack(rows)$/;"	kind:variable	line:147
+solution1.py	solution1.py	1;"	kind:file	line:1
+year	solution1.py	/^    year = mov['year']$/;"	kind:variable	line:120
+yearPattern	solution1.py	/^yearPattern = '(\\d{4})'$/;"	kind:variable	line:14
+yearRegex	solution1.py	/^yearRegex = re.compile(yearPattern)$/;"	kind:variable	line:15
+years	solution1.py	/^years = np.arange(2000, 2011)$/;"	kind:variable	line:138
