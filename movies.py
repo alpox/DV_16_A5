@@ -16,7 +16,7 @@ yearRegex = re.compile(yearPattern)
 def get_movies():
     movies = {}    
 
-    with open('../data/movies.list', 'r') as file:
+    with open('./data/movies.list', 'r') as file:
         for line in file:
             m = movieRegex.match(line)
 
@@ -43,7 +43,7 @@ def get_movies():
     return movies
 
 def loadCountriesFor(movies):
-    with open('../data/countries.list', 'r') as file:
+    with open('./data/countries.list', 'r') as file:
         for line in file:
             m = movieRegex.match(line)
 
@@ -62,7 +62,7 @@ def loadRatingsFor(movies):
     ratingsPattern = '[0-9.]{10} +?(\d+) +?([0-9.]+) +?([^ ].*?) +?\(.*?\)'
     ratingsRegex = re.compile(ratingsPattern)
 
-    with open('../data/ratings.list', 'r') as file:
+    with open('./data/ratings.list', 'r') as file:
         for line in file:
             line = line.strip()
             if line == 'MOVIE RATINGS REPORT':
@@ -83,7 +83,7 @@ def loadRatingsFor(movies):
     return movies
 
 def loadGenresFor(movies):
-    with open('../data/genres.list', 'r') as file:
+    with open('./data/genres.list', 'r') as file:
         for line in file:
             m = movieRegex.match(line)
 
