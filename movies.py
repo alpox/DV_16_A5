@@ -101,7 +101,7 @@ def get_all_movie_data():
     movies = {}
 
     if os.path.isfile("movies.bin"):
-        with open('movies.bin', 'rw') as file:
+        with open('movies.bin', 'r') as file:
             movies = pickle.load(file)
     else:
         movies = get_movies()
