@@ -1,6 +1,7 @@
 import re
 import os
 import numpy as np
+import pandas as pd
 
 try:
    import cPickle as pickle
@@ -93,7 +94,10 @@ def loadGenresFor(movies):
             genre = m.group(4)
 
             if title in movies:
-                movies[title]["genre"] = genre
+                if 'genre' in movies[title]:
+                    movies[title]['genre'] += [genre]
+                else:
+                    movies[title]['genre'] = [genre]
 
     return movies
 
@@ -112,3 +116,6 @@ def get_all_movie_data():
             pickle.dump(movies, file, protocol=2)
 
     return movies
+
+def movies_to_df(movies):
+    return pd.DataFrame(movies.values(), index=movies.keys())

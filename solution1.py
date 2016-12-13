@@ -2,9 +2,9 @@ import numpy as np
 import plotly
 from plotly import tools
 import plotly.graph_objs as go
-import movies
+import movies as mv
 
-movies = movies.get_all_movie_data()
+movies = mv.get_all_movie_data()
 
 aggs = {}
 nums = {}
@@ -18,16 +18,17 @@ for title, mov in movies.iteritems():
     idx = year%2000
     if year >= 2000 and year <= 2010 \
             and 'rating' in mov and 'genre' in mov:
-        genre = mov['genre']
+        genres = mov['genre']
 
-        if genre in aggs:
-            aggs[genre][idx] = aggs[genre][idx] + mov['rating']
-            nums[genre][idx] = nums[genre][idx] + 1
-        else:
-            aggs[genre] = np.zeros(11)
-            aggs[genre][idx] = mov['rating']
-            nums[genre] = np.zeros(11)
-            nums[genre][idx] = 1
+        for genre in genres:
+            if genre in aggs:
+                aggs[genre][idx] = aggs[genre][idx] + mov['rating']
+                nums[genre][idx] = nums[genre][idx] + 1
+            else:
+                aggs[genre] = np.zeros(11)
+                aggs[genre][idx] = mov['rating']
+                nums[genre] = np.zeros(11)
+                nums[genre][idx] = 1
 
 data = []
 rows = []
@@ -70,7 +71,7 @@ data.append(go.Scatter(
 layout = {
     'xaxis': {'title': 'Years'},
     'yaxis': {'title': 'Rating'},
-    'title': 'Movie ratings per year grouped by genres'
+    'title': 'Average yearly ratings of Swiss movies between 2000 and 2010 grouped by genre'
 }
 
 plotly.offline.plot({'data': data, 'layout': layout})
