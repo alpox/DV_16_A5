@@ -68,9 +68,9 @@ data.append(go.Scatter(
 ))
 
 layout = {
-  'xaxis': {'title': 'Years'},
-  'yaxis': {'title': 'Rating'},
-  'title': 'Movie ratings per year grouped by genres'
+    'xaxis': {'title': 'Years'},
+    'yaxis': {'title': 'Rating'},
+    'title': 'Movie ratings per year grouped by genres'
 }
 
 plotly.offline.plot({'data': data, 'layout': layout})
