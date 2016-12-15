@@ -11,43 +11,23 @@ def randomCirclePos(r):
     t = 2*np.pi*np.random.random_sample()
     tDeg = 360-np.rad2deg(t)
 
-    if 360-np.rad2deg(t) < 45:
-        x = ((100.0-(tDeg)%45)/100)*r*(np.cos(t))
-        y = ((100.0-(tDeg)%45)/100)*r*(np.sin(t))
-        return x, y, 360-np.rad2deg(t)
-    if 360-np.rad2deg(t) < 90:
+    diff = tDeg
+
+    if diff < 90 and diff >= 45:
         tDeg = 90-tDeg
-        x = ((100.0-(tDeg)%45)/100)*r*(np.cos(t))
-        y = ((100.0-(tDeg)%45)/100)*r*(np.sin(t))
-        return x, y, 360-np.rad2deg(t)
-    if 360-np.rad2deg(t) < 135:
-        x = ((100.0-(tDeg)%45)/100)*r*(np.cos(t))
-        y = ((100.0-(tDeg)%45)/100)*r*(np.sin(t))
-        return x, y, 360-np.rad2deg(t)
-    if 360-np.rad2deg(t) < 180:
+
+    elif diff < 180 and diff >= 135:
         tDeg = 180-tDeg
-        x = ((100.0-(tDeg)%45)/100)*r*(np.cos(t))
-        y = ((100.0-(tDeg)%45)/100)*r*(np.sin(t))
-        return x, y, 360-np.rad2deg(t)
-        
-    if 360-np.rad2deg(t) < 225:
-        x = ((100.0-(tDeg)%45)/100)*r*(np.cos(t))
-        y = ((100.0-(tDeg)%45)/100)*r*(np.sin(t))
-        return x, y, 360-np.rad2deg(t)
-    if 360-np.rad2deg(t) < 270:
+
+    elif diff < 270 and diff >= 225:
         tDeg = 90-tDeg
-        x = ((100.0-(tDeg)%45)/100)*r*(np.cos(t))
-        y = ((100.0-(tDeg)%45)/100)*r*(np.sin(t))
-        return x, y, 360-np.rad2deg(t)
-    if 360-np.rad2deg(t) < 315:
-        x = ((100.0-(tDeg)%45)/100)*r*(np.cos(t))
-        y = ((100.0-(tDeg)%45)/100)*r*(np.sin(t))
-        return x, y, 360-np.rad2deg(t)
-    if 360-np.rad2deg(t) <= 360:
+
+    elif diff <= 360 and diff >= 315:
         tDeg = 180-tDeg
-        x = ((100.0-(tDeg)%45)/100)*r*(np.cos(t))
-        y = ((100.0-(tDeg)%45)/100)*r*(np.sin(t))
-        return x, y, 360-np.rad2deg(t)    
+
+    x = ((100.0-tDeg%45/8)/100)*r*np.cos(t)
+    y = ((100.0-tDeg%45/8)/100)*r*np.sin(t)
+    return x, y, diff
     
     return r*(np.cos(t)), r*(np.sin(t)), 360-np.rad2deg(t)
 
