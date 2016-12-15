@@ -37,12 +37,12 @@ y = []
 
 genres = []
 
-max = 200
+max = 250
 i = 0
 
 for title, movie in movies.iteritems():
     
-    if not 'year' in movie or not 'genre' in movie:
+    if not 'year' in movie or not 'genre' in movie or not 'rating' in movie:
         continue
 
     year = movie['year']
@@ -55,6 +55,7 @@ for title, movie in movies.iteritems():
         break
     
     genre = movie['genre'][0]
+    rating = movie['rating']
 
     idx = 0
 
@@ -67,7 +68,6 @@ for title, movie in movies.iteritems():
     color = colors[idx]
     
     mx, my, angle = randomCirclePos(10)
-
 
     xa = "left"
     ya = "bottom"
@@ -92,7 +92,7 @@ for title, movie in movies.iteritems():
         ay=0,
         font=dict (
             color=color,
-            size=12
+            size=(rating / 10) * 20
         )
     ))
 
