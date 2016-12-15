@@ -53,16 +53,3 @@ layout = go.Layout(
 )
 
 plotly.offline.plot({'data': data, 'layout': layout})
-
-'''
-groups = movies.groupby(['year', 'genre'])
-
-df = groups['title'].count().unstack(level=-1).dropna(how='all').head(-1)
-
-df2 = df.divide(df.T.sum(), axis=0)
-txt = (df2 * 100).applymap(lambda x: '%.2f' % x + '%')
-
-figure = df2.iplot(kind='area', asFigure=True, fill='tonexty')
-plotly.offline.plot(figure)
-
-'''
