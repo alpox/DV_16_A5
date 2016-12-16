@@ -37,7 +37,7 @@ y = []
 
 genres = []
 
-max = 250
+max = 500
 i = 0
 
 for title, movie in movies.iteritems():
@@ -67,7 +67,7 @@ for title, movie in movies.iteritems():
 
     color = colors[idx]
     
-    mx, my, angle = randomCirclePos(10)
+    mx, my, angle = randomCirclePos(20)
 
     xa = "left"
     ya = "bottom"
@@ -92,7 +92,7 @@ for title, movie in movies.iteritems():
         ay=0,
         font=dict (
             color=color,
-            size=(rating / 10) * 20
+            size=(rating / 10) * 10
         )
     ))
 
@@ -106,7 +106,7 @@ layout = go.Layout(
     height=800,
     annotations=annotations,
     xaxis=dict(
-        range=[-30, 30],
+        range=[-60, 60],
         showgrid=False,
         zeroline=False,
         showline=False,
@@ -115,7 +115,7 @@ layout = go.Layout(
         showticklabels=False
     ),
     yaxis=dict(
-        range=[-30, 30],
+        range=[-60, 60],
         showgrid=False,
         zeroline=False,
         showline=False,
@@ -125,4 +125,4 @@ layout = go.Layout(
     )
 )
 
-plotly.offline.plot({ 'data': data, 'layout': layout })
+plotly.offline.plot({ 'data': data, 'layout': layout }, filename='test.html')
