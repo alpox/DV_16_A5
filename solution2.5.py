@@ -79,9 +79,14 @@ for genre, values in genre_agg.iteritems():
 
 layout = go.Layout(
     showlegend=True,
+    #title='Number of movies produced per year and genre in percent to total',
+    xaxis=dict(
+        title='Year'
+    ),
     yaxis=dict(
-        ticksuffix="%"
+        ticksuffix="%",
+        title='Percentage'
     )
 )
 
-plotly.plotly.plot({'data': data, 'layout': layout})
+plotly.offline.plot({'data': data, 'layout': layout})
