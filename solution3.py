@@ -75,5 +75,5 @@ layout = {
 #)
 
 
-plotly.offline.plot({'data':data, 'layout': layout})
+plotly.plotly.plot({'data':data, 'layout': layout})
 

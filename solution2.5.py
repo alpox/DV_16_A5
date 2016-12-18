@@ -3,9 +3,6 @@ import plotly
 from plotly import tools
 import plotly.graph_objs as go
 import movies as mv
-import cufflinks as cf
-import pandas as pd
-from pandas import DataFrame as df
 
 movies = mv.get_all_movie_data()
 
@@ -87,4 +84,4 @@ layout = go.Layout(
     )
 )
 
-plotly.offline.plot({'data': data, 'layout': layout})
+plotly.plotly.plot({'data': data, 'layout': layout})
