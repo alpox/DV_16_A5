@@ -10,6 +10,9 @@ data/
 # C extensions
 *.so
 
+# HTML extensions
+*.html
+
 # Distribution / packaging
 .Python
 env/
