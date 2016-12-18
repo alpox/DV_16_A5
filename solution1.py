@@ -69,7 +69,7 @@ data.append(go.Scatter(
 ))
 
 layout = {
-    'xaxis': {'title': 'Years'},
+    'xaxis': {'title': 'Year'},
     'yaxis': {'title': 'Rating'},
     'title': 'Average yearly ratings of Swiss movies between 2000 and 2010 grouped by genre'
 }

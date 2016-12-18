@@ -105,6 +105,7 @@ layout = go.Layout(
     width=800,
     height=800,
     annotations=annotations,
+    title = 'The color of the movie title indicates its genre and the text size its rating',
     xaxis=dict(
         range=[-60, 60],
         showgrid=False,
@@ -124,5 +125,6 @@ layout = go.Layout(
         showticklabels=False
     )
 )
+
 
 plotly.offline.plot({ 'data': data, 'layout': layout }, filename='test.html')

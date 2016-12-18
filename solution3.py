@@ -61,12 +61,19 @@ for genre, genData in genres.iteritems():
         mode='markers'
     ))
 
-layout = go.Layout(
-    showlegend=True,
-    xaxis=dict(
-        type="log"
-    )
-)
+layout = {
+    'xaxis': {'title': 'Movie duration', 'type': 'log'},
+    'yaxis': {'title': 'IMDb Score'},
+    'title': 'Relation between movie duration and score. Circle size indicates the number of votes and the color the movies genre'
+}
+
+#layout = go.Layout(
+#    showlegend=True,
+#    xaxis=dict(
+#        type="log"
+#    )
+#)
+
 
 plotly.offline.plot({'data':data, 'layout': layout})
 

@@ -48,8 +48,10 @@ for genre, values in genre_agg.iteritems():
     p = go.Scatter(x=years, y=ydata, name=genre, fill='tonexty', mode='lines')
     data.append(p)
 
-layout = go.Layout(
-    showlegend=True
-)
+layout = {
+    'xaxis': {'title': 'Year'},
+    'yaxis': {'title': 'Number of movies'},
+    'title': 'Number of movies produced per year and genre'
+}
 
 plotly.offline.plot({'data': data, 'layout': layout})
