@@ -64,7 +64,7 @@ for genre, genData in genres.iteritems():
 layout = {
     'xaxis': {'title': 'Movie duration', 'type': 'log'},
     'yaxis': {'title': 'IMDb Score'},
-    #'title': 'Relation between movie duration and score. Circle size indicates the number of votes and the color the movies genre'
+    'title': 'Relation between movie duration and score. Circle size indicates the number of votes and the color the movies genre'
 }
 
 #layout = go.Layout(

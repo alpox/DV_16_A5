@@ -92,7 +92,7 @@ data.append(go.Scatter(
 layout = {
     'xaxis': {'title': 'Year'},
     'yaxis': {'title': 'Number of movies'},
-    #'title': 'Number of movies produced per year and genre'
+    'title': 'Number of movies produced per year and genre'
 }
 
 
