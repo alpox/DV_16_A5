@@ -101,6 +101,29 @@ def loadGenresFor(movies):
 
     return movies
 
+def loadDurationFor(movies):
+    with open('./data/running-times.list', 'r') as file:
+        for line in file:
+            m = movieRegex.match(line)
+
+            if m == None: continue
+
+            title = m.group(1)
+            time = m.group(4)
+
+            reg = re.compile('([0-9]+)')
+
+            m = reg.match(time)
+            
+            if m == None: continue
+
+            time = m.group(1)
+
+            if title in movies:
+                movies[title]['duration'] = int(time)
+            
+    return movies
+
 def get_all_movie_data():
     movies = {}
 
@@ -112,6 +135,7 @@ def get_all_movie_data():
         movies = loadCountriesFor(movies)
         movies = loadRatingsFor(movies)
         movies = loadGenresFor(movies)
+        movies = loadDurationFor(movies)
         with open('movies.bin', 'wb') as file:
             pickle.dump(movies, file, protocol=2)
 

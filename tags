@@ -5,25 +5,25 @@
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
 aggs	solution1.py	/^aggs = {}$/;"	kind:variable	line:9
-annotations	solution4.py	/^    annotations=annotations,$/;"	kind:variable	line:108
+annotations	solution4.py	/^    annotations=annotations,$/;"	kind:variable	line:107
 annotations	solution4.py	/^annotations = []$/;"	kind:variable	line:34
 arrowsize	solution4.py	/^        arrowsize=0,$/;"	kind:variable	line:88
-autotick	solution4.py	/^        autotick=True,$/;"	kind:variable	line:114
-autotick	solution4.py	/^        autotick=True,$/;"	kind:variable	line:123
+autotick	solution4.py	/^        autotick=True,$/;"	kind:variable	line:113
+autotick	solution4.py	/^        autotick=True,$/;"	kind:variable	line:122
 ax	solution4.py	/^        ax=0,$/;"	kind:variable	line:91
 ay	solution4.py	/^        ay=0,$/;"	kind:variable	line:92
 borderpad	solution4.py	/^        borderpad=0,$/;"	kind:variable	line:90
 borderwidth	solution4.py	/^        borderwidth=0,$/;"	kind:variable	line:89
 cf	solution2.py	/^import cufflinks as cf$/;"	kind:namespace	line:6
-color	solution4.py	/^            color=color,$/;"	kind:variable	line:95
+color	solution4.py	/^            color=color,$/;"	kind:variable	line:94
 color	solution4.py	/^    color = colors[idx]$/;"	kind:variable	line:68
 colors	solution1.py	/^colors = ["#0a72ff", "#1eff06", "#ff1902", "#2dfefe", "#827c01", "#fe07a6", "#a8879f", "#fcff04", "#c602fe", "#16be61", "#ff9569", "#05b3ff", "#ecffa7", "#3f8670", "#e992ff", "#ffb209", "#e72955", "#83bf02", "#bba67b", "#fe7eb1", "#7570c1", "#85bfd1", "#f97505", "#9f52e9", "#8ffec2", "#dad045", "#b85f60", "#fe4df2", "#75ff6c", "#78a55a", "#ae6a02", "#bebeff", "#ffb3b3", "#a4fe04", "#ffc876", "#c548a7", "#d6492b", "#547da7", "#358b06", "#95caa9", "#07b990", "#feb6e9", "#c9ff76", "#02b708", "#7b7a6e", "#1090fb", "#a46d41", "#09ffa9", "#bb76b7", "#06b5b6", "#df307c", "#9b83fd", "#ff757c", "#0cd9fd", "#bdba61", "#c89d26", "#91df7e", "#108c49", "#7b7d40", "#fdd801", "#048699", "#fc9d40", "#ff0f3b", "#87a72c", "#a25cc2", "#b95a82", "#bb8a80", "#cce733", "#f7b58d", "#adaaab", "#c141c8", "#08fbd8", "#ff6de4", "#c26040", "#bb9bf6", "#b08f44", "#6d96de", "#8dcaff", "#5be51c", "#68c948", "#ff5fb8", "#7f9872", "#9aa5ca", "#bad292", "#c32fe4", "#fc92df", "#e08eaa", "#fd0afd", "#2daad4", "#d96d2a", "#69e0c9", "#ce4b69", "#79ca8d", "#6e8e9a", "#ffec83", "#de0fb5", "#8471a2", "#bbd766", "#e94805", "#06ff54", "#9cf046", "#6a63ff", "#05e774", "#e38c7b", "#f6ff75", "#3cda96", "#d68e4b", "#d774fe", "#feca4c", "#80ff95", "#5571e1", "#6da9a1", "#a5a20d", "#d5484a", "#688326", "#e7d08f", "#4e8653", "#5cad4c", "#c19bcf", "#ff0e76", "#d3ff0b", "#a66877", "#6ddde3", "#a544fe", "#c2fdb5", "#8f7955", "#fd735b", "#8497fd", "#fd919d", "#fdf346", "#fe5581", "#fd4e50", "#0ca82e", "#d4a8b2", "#d14e91", "#0d9069", "#0c8bca", "#fd9403", "#d5b401", "#adc32e", "#efacfe", "#9da668", "#57b093", "#787791", "#ff6f39", "#9e790a", "#d18903", "#abb49a", "#a06790", "#cf70cb", "#c8fe96", "#488834", "#dcbf55", "#e82f23", "#9a90d5", "#9cd54d", "#c7936c", "#05dc4a", "#98f372", "#907275", "#167dcf", "#db2b9f", "#16b16e", "#49a802", "#66cd1d", "#905fdc", "#cecd02", "#a376ca", "#939540", "#a7e103", "#d9ac6e", "#099334", "#db7701", "#3facbd", "#a0cb76", "#6aa3d5", "#dcaf98", "#b6692e", "#a76a59", "#04908e", "#d771ab", "#a69683", "#8268d0", "#72ab79", "#f70c8b", "#ebaa4c", "#9ce7b8", "#5f837a", "#df708c", "#ad9c32", "#39ffc2", "#d28388", "#79d5f9", "#e35eff", "#ffaf72", "#55e0b3", "#e8c0fe", "#6a69ed", "#fe07d3", "#0c86af"]$/;"	kind:variable	line:37
 colors	solution4.py	/^colors = ["#0a72ff", "#1eff06", "#ff1902", "#2dfefe", "#827c01", "#fe07a6", "#a8879f", "#fcff04", "#c602fe", "#16be61", "#ff9569", "#05b3ff", "#ecffa7", "#3f8670", "#e992ff", "#ffb209", "#e72955", "#83bf02", "#bba67b", "#fe7eb1", "#7570c1", "#85bfd1", "#f97505", "#9f52e9", "#8ffec2", "#dad045", "#b85f60", "#fe4df2", "#75ff6c", "#78a55a", "#ae6a02", "#bebeff", "#ffb3b3", "#a4fe04", "#ffc876", "#c548a7", "#d6492b", "#547da7", "#358b06", "#95caa9", "#07b990", "#feb6e9", "#c9ff76", "#02b708", "#7b7a6e", "#1090fb", "#a46d41", "#09ffa9", "#bb76b7", "#06b5b6", "#df307c", "#9b83fd", "#ff757c", "#0cd9fd", "#bdba61", "#c89d26", "#91df7e", "#108c49", "#7b7d40", "#fdd801", "#048699", "#fc9d40", "#ff0f3b", "#87a72c", "#a25cc2", "#b95a82", "#bb8a80", "#cce733", "#f7b58d", "#adaaab", "#c141c8", "#08fbd8", "#ff6de4", "#c26040", "#bb9bf6", "#b08f44", "#6d96de", "#8dcaff", "#5be51c", "#68c948", "#ff5fb8", "#7f9872", "#9aa5ca", "#bad292", "#c32fe4", "#fc92df", "#e08eaa", "#fd0afd", "#2daad4", "#d96d2a", "#69e0c9", "#ce4b69", "#79ca8d", "#6e8e9a", "#ffec83", "#de0fb5", "#8471a2", "#bbd766", "#e94805", "#06ff54", "#9cf046", "#6a63ff", "#05e774", "#e38c7b", "#f6ff75", "#3cda96", "#d68e4b", "#d774fe", "#feca4c", "#80ff95", "#5571e1", "#6da9a1", "#a5a20d", "#d5484a", "#688326", "#e7d08f", "#4e8653", "#5cad4c", "#c19bcf", "#ff0e76", "#d3ff0b", "#a66877", "#6ddde3", "#a544fe", "#c2fdb5", "#8f7955", "#fd735b", "#8497fd", "#fd919d", "#fdf346", "#fe5581", "#fd4e50", "#0ca82e", "#d4a8b2", "#d14e91", "#0d9069", "#0c8bca", "#fd9403", "#d5b401", "#adc32e", "#efacfe", "#9da668", "#57b093", "#787791", "#ff6f39", "#9e790a", "#d18903", "#abb49a", "#a06790", "#cf70cb", "#c8fe96", "#488834", "#dcbf55", "#e82f23", "#9a90d5", "#9cd54d", "#c7936c", "#05dc4a", "#98f372", "#907275", "#167dcf", "#db2b9f", "#16b16e", "#49a802", "#66cd1d", "#905fdc", "#cecd02", "#a376ca", "#939540", "#a7e103", "#d9ac6e", "#099334", "#db7701", "#3facbd", "#a0cb76", "#6aa3d5", "#dcaf98", "#b6692e", "#a76a59", "#04908e", "#d771ab", "#a69683", "#8268d0", "#72ab79", "#f70c8b", "#ebaa4c", "#9ce7b8", "#5f837a", "#df708c", "#ad9c32", "#39ffc2", "#d28388", "#79d5f9", "#e35eff", "#ffaf72", "#55e0b3", "#e8c0fe", "#6a69ed", "#fe07d3", "#0c86af"]$/;"	kind:variable	line:32
 data	solution1.py	/^data = []$/;"	kind:variable	line:33
 data	solution2.py	/^data = []$/;"	kind:variable	line:39
-data	solution4.py	/^data = [go.Scatter(x=x, y=y, mode='none')]$/;"	kind:variable	line:103
+data	solution4.py	/^data = [go.Scatter(x=x, y=y, mode='none')]$/;"	kind:variable	line:102
 df	solution2.py	/^from pandas import DataFrame as df$/;"	kind:namespace	line:8
-font	solution4.py	/^        font=dict ($/;"	kind:variable	line:94
+font	solution4.py	/^        font=dict ($/;"	kind:variable	line:93
 genre	solution4.py	/^    genre = movie['genre'][0]$/;"	kind:variable	line:57
 genre_agg	solution2.py	/^genre_agg = {}$/;"	kind:variable	line:14
 genres	solution1.py	/^        genres = mov['genre']$/;"	kind:variable	line:21
@@ -34,7 +34,7 @@ get_movies	movies.py	/^def get_movies():$/;"	kind:function	line:17
 go	solution1.py	/^import plotly.graph_objs as go$/;"	kind:namespace	line:4
 go	solution2.py	/^import plotly.graph_objs as go$/;"	kind:namespace	line:4
 go	solution4.py	/^import plotly.graph_objs as go$/;"	kind:namespace	line:4
-height	solution4.py	/^    height=800,$/;"	kind:variable	line:107
+height	solution4.py	/^    height=800,$/;"	kind:variable	line:106
 i	solution4.py	/^i = 0$/;"	kind:variable	line:41
 idx	solution1.py	/^    idx = year%2000$/;"	kind:variable	line:18
 idx	solution4.py	/^        idx = genres.index(genre)$/;"	kind:variable	line:63
@@ -43,13 +43,13 @@ idx	solution4.py	/^    idx = 0$/;"	kind:variable	line:60
 it	solution1.py	/^it = 0$/;"	kind:variable	line:36
 layout	solution1.py	/^layout = {$/;"	kind:variable	line:71
 layout	solution2.py	/^layout = go.Layout($/;"	kind:variable	line:51
-layout	solution4.py	/^layout = go.Layout($/;"	kind:variable	line:105
+layout	solution4.py	/^layout = go.Layout($/;"	kind:variable	line:104
 loadCountriesFor	movies.py	/^def loadCountriesFor(movies):$/;"	kind:function	line:46
 loadGenresFor	movies.py	/^def loadGenresFor(movies):$/;"	kind:function	line:86
 loadRatingsFor	movies.py	/^def loadRatingsFor(movies):$/;"	kind:function	line:61
 marker	solution1.py	/^        marker={'color':colors[it-1]}$/;"	kind:variable	line:56
 marker	solution1.py	/^    marker={'color': colors[21]}$/;"	kind:variable	line:68
-max	solution4.py	/^max = 250$/;"	kind:variable	line:40
+max	solution4.py	/^max = 500$/;"	kind:variable	line:40
 means	solution1.py	/^means = np.zeros(11)$/;"	kind:variable	line:40
 mnums	solution1.py	/^mnums = np.zeros(11)$/;"	kind:variable	line:41
 mode	solution1.py	/^        mode='markers',$/;"	kind:variable	line:55
@@ -83,33 +83,32 @@ plotly	solution2.py	/^import plotly.graph_objs as go$/;"	kind:namespace	line:4
 plotly	solution4.py	/^import plotly$/;"	kind:namespace	line:2
 plotly	solution4.py	/^import plotly.graph_objs as go$/;"	kind:namespace	line:4
 randomCirclePos	solution4.py	/^def randomCirclePos(r):$/;"	kind:function	line:10
-range	solution4.py	/^        range=[-30, 30],$/;"	kind:variable	line:110
-range	solution4.py	/^        range=[-30, 30],$/;"	kind:variable	line:119
+range	solution4.py	/^        range=[-60, 60],$/;"	kind:variable	line:109
+range	solution4.py	/^        range=[-60, 60],$/;"	kind:variable	line:118
 rating	solution4.py	/^    rating = movie['rating']$/;"	kind:variable	line:58
 re	movies.py	/^import re$/;"	kind:namespace	line:1
 rows	solution1.py	/^rows = []$/;"	kind:variable	line:34
 showarrow	solution4.py	/^        showarrow=False,$/;"	kind:variable	line:85
-showgrid	solution4.py	/^        showgrid=False,$/;"	kind:variable	line:111
-showgrid	solution4.py	/^        showgrid=False,$/;"	kind:variable	line:120
+showgrid	solution4.py	/^        showgrid=False,$/;"	kind:variable	line:110
+showgrid	solution4.py	/^        showgrid=False,$/;"	kind:variable	line:119
 showlegend	solution2.py	/^    showlegend=True$/;"	kind:variable	line:52
-showline	solution4.py	/^        showline=False,$/;"	kind:variable	line:113
-showline	solution4.py	/^        showline=False,$/;"	kind:variable	line:122
-showticklabels	solution4.py	/^        showticklabels=False$/;"	kind:variable	line:116
-showticklabels	solution4.py	/^        showticklabels=False$/;"	kind:variable	line:125
-size	solution4.py	/^            size=(rating \/ 10) * 20$/;"	kind:variable	line:96
+showline	solution4.py	/^        showline=False,$/;"	kind:variable	line:112
+showline	solution4.py	/^        showline=False,$/;"	kind:variable	line:121
+showticklabels	solution4.py	/^        showticklabels=False$/;"	kind:variable	line:115
+showticklabels	solution4.py	/^        showticklabels=False$/;"	kind:variable	line:124
+size	solution4.py	/^            size=(rating \/ 10) * 10$/;"	kind:variable	line:95
 solution1.py	solution1.py	1;"	kind:file	line:1
 solution2.py	solution2.py	1;"	kind:file	line:1
 solution4.py	solution4.py	1;"	kind:file	line:1
-test	solution4.py	/^        test='bla',$/;"	kind:variable	line:93
 text	solution4.py	/^        text=unicode(title, errors='replace'),$/;"	kind:variable	line:83
 textangle	solution4.py	/^        textangle=angle,$/;"	kind:variable	line:84
-ticks	solution4.py	/^        ticks='',$/;"	kind:variable	line:115
-ticks	solution4.py	/^        ticks='',$/;"	kind:variable	line:124
+ticks	solution4.py	/^        ticks='',$/;"	kind:variable	line:114
+ticks	solution4.py	/^        ticks='',$/;"	kind:variable	line:123
 tools	solution1.py	/^from plotly import tools$/;"	kind:namespace	line:3
 tools	solution2.py	/^from plotly import tools$/;"	kind:namespace	line:3
 tools	solution4.py	/^from plotly import tools$/;"	kind:namespace	line:3
 trace	solution1.py	/^    trace = go.Scatter($/;"	kind:variable	line:51
-width	solution4.py	/^    width=800,$/;"	kind:variable	line:106
+width	solution4.py	/^    width=800,$/;"	kind:variable	line:105
 x	solution1.py	/^        x=years,$/;"	kind:variable	line:52
 x	solution1.py	/^    x=years,$/;"	kind:variable	line:65
 x	solution4.py	/^        x=mx,$/;"	kind:variable	line:81
@@ -117,7 +116,7 @@ x	solution4.py	/^x = []$/;"	kind:variable	line:35
 xa	solution4.py	/^        xa = "right"$/;"	kind:variable	line:76
 xa	solution4.py	/^    xa = "left"$/;"	kind:variable	line:72
 xanchor	solution4.py	/^        xanchor=xa,$/;"	kind:variable	line:86
-xaxis	solution4.py	/^    xaxis=dict($/;"	kind:variable	line:109
+xaxis	solution4.py	/^    xaxis=dict($/;"	kind:variable	line:108
 y	solution1.py	/^        y=aggs[genre],$/;"	kind:variable	line:53
 y	solution1.py	/^    y=means,$/;"	kind:variable	line:66
 y	solution4.py	/^        y=my,$/;"	kind:variable	line:82
@@ -125,7 +124,7 @@ y	solution4.py	/^y = []$/;"	kind:variable	line:36
 ya	solution4.py	/^        ya = "top"$/;"	kind:variable	line:78
 ya	solution4.py	/^    ya = "bottom"$/;"	kind:variable	line:73
 yanchor	solution4.py	/^        yanchor=ya,$/;"	kind:variable	line:87
-yaxis	solution4.py	/^    yaxis=dict($/;"	kind:variable	line:118
+yaxis	solution4.py	/^    yaxis=dict($/;"	kind:variable	line:117
 ydata	solution2.py	/^    ydata = []$/;"	kind:variable	line:41
 year	solution1.py	/^    year = mov['year']$/;"	kind:variable	line:15
 year	solution2.py	/^    year = movie['year']$/;"	kind:variable	line:20
@@ -135,5 +134,5 @@ yearRegex	movies.py	/^yearRegex = re.compile(yearPattern)$/;"	kind:variable	line
 years	solution1.py	/^years = np.arange(2000, 2011).tolist()$/;"	kind:variable	line:35
 years	solution2.py	/^years = []$/;"	kind:variable	line:12
 years	solution2.py	/^years = sorted(years)$/;"	kind:variable	line:37
-zeroline	solution4.py	/^        zeroline=False,$/;"	kind:variable	line:112
-zeroline	solution4.py	/^        zeroline=False,$/;"	kind:variable	line:121
+zeroline	solution4.py	/^        zeroline=False,$/;"	kind:variable	line:111
+zeroline	solution4.py	/^        zeroline=False,$/;"	kind:variable	line:120

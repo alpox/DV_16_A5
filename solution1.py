@@ -74,4 +74,4 @@ layout = {
     'title': 'Average yearly ratings of Swiss movies between 2000 and 2010 grouped by genre'
 }
 
-plotly.plotly.plot({'data': data, 'layout': layout})
+plotly.offline.plot({'data': data, 'layout': layout})
